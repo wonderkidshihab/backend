@@ -1,0 +1,31 @@
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.todo-title {
+  flex: 1;
+}
+.todo-description {
+  flex: 2;
+}
+.todo-complete {
+  flex: 1;
+}
+
+.todo-complete input {
+  width: 20px;
+  height: 20px;
+}
+
+.todo-complete input:checked {
+  background-color: green;
+}
+
+.todo-complete input:unchecked {
+  background-color: red;
+}
